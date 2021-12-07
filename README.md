@@ -55,19 +55,13 @@ Vote: number of votes
 
 Gross: Money earned by that movie
 
-Description: Description of the movie
-
-Director : Name of the Director
-
-Stars of the movie: Name of the Stars
-
 
 
 ### Tools
 
 Technologies: python, Jupyter notebook
 
-Libraries: BeautifulSoup, requests, pandas,numpy, matplotlib, seaborn
+Libraries: BeautifulSoup, requests, pandas,numpy, matplotlib, seaborn , sklearn
 
 
 
