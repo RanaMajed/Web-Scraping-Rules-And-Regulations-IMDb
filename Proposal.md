@@ -16,9 +16,7 @@ IMDb (an acronym for Internet Movie Database) is an online database of informati
 
 ### Problem Statement  
 
-The Internet Movie Database (IMDb) is one of the world's most entertaining popular sources of movie, TV and celebrity content with over 100 million unique visitors each day.
-IMDb has a huge collection of movie database which includes various classification such as action, classic drama, horror and comedy
-The idea of our project is to web scraping the data from IMDb and form an analysis that helps the data analyst or production company decide how to go about making a new movie.
+The Internet Movie Database (IMDb) is one of the world's most entertaining popular sources of movie, TV and celebrity content with over 100 million unique visitors each day. IMDb has a huge collection of movie database which includes various classification such as action, classic drama, horror and comedy The idea of our project is to web scraping the data from IMDb and form an analysis that helps the data analyst or production company decide how to go about making a new movie, and the second is to create a model to predict the feelings of movies based on user opinions.
 
 
 ### Question\Need
@@ -29,12 +27,13 @@ The idea of our project is to web scraping the data from IMDb and form an analys
 2-What is the top 7 Movies according to highest votes?
 
 
-3-What is the top 7 Movies according to highest votes?
+3-How many vote for each movies genre?
+
 
 
 ### Data Description
 
-We are used a web scraping from IMBD and extracted data form the site for1000 rows and 11 columns.
+We are used a web scraping from IMBD and extracted data form the site for1000 rows and 9 columns.
 
 Name: title of the movie,
 
@@ -52,13 +51,14 @@ Vote: number of votes
 
 Gross: Money earned by that movie
 
+certificate: Movie ratings explained syatem
 
 
 ### Tools
 
 Technologies: python, Jupyter notebook
 
-Libraries: BeautifulSoup, requests, pandas,numpy, matplotlib, seaborn , sklearn
+Libraries: BeautifulSoup, requests, pandas, numpy, matplotlib, seaborn, , LogisticRegression , sklearn.linear_model, sklearn.model_selection, sklearn.preprocessing
 
 
 
